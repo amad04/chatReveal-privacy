@@ -246,18 +246,20 @@
     html.lang-en [data-lang="en"] { display: initial; }
     html.lang-sv p[data-lang="sv"],
     html.lang-sv li[data-lang="sv"],
-    html.lang-sv a[data-lang="sv"],
     html.lang-sv div[data-lang="sv"],
     html.lang-sv span[data-lang="sv"],
     html.lang-sv h2[data-lang="sv"],
     html.lang-sv h3[data-lang="sv"] { display: block; }
+    
     html.lang-en p[data-lang="en"],
     html.lang-en li[data-lang="en"],
-    html.lang-en a[data-lang="en"],
     html.lang-en div[data-lang="en"],
     html.lang-en span[data-lang="en"],
     html.lang-en h2[data-lang="en"],
     html.lang-en h3[data-lang="en"] { display: block; }
+    
+    html.lang-sv a[data-lang="sv"],
+    html.lang-en a[data-lang="en"] { display: flex; }
 
     @media (max-width: 820px) {
       .grid {
